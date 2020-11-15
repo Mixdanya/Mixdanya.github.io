@@ -1,0 +1,46 @@
+body{
+	background-color: blue;
+
+
+}
+.main{
+
+	width: 80%;
+	margin: auto;
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: green;
+}
+
+.item{
+	width: 44%;
+	height: 380px;
+	background-color: blue;  
+	margin: 5px;
+	border-radius: 15px;
+	background-size: cover;
+	opacity: 0.5;
+	transform: scale(0.5);
+
+}
+.item:hover{
+opacity:1;
+transition: 1s;
+transform: scale(1);
+}
+.img1{background-image: url(img/1.jpg);
+}
+.img2{background-image: url(img/2.jpg);
+}
+.img3{background-image: url(img/3.jpg);
+}
+.img4{background-image: url(img/4.jpg);
+}
+.img5{background-image: url(img/5.jpg);
+}
+.img6{background-image: url(img/6.jpg);
+}
+.img7{background-image: url(img/7.jpg);
+}
